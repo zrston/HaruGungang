@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react'
 import './App.css';
 import Header from './components/Header'
@@ -14,27 +13,6 @@ import SurveyResult from './components/SurveyResult'
 import ProductContent from './components/ProductContent'
 import ProductDetail from './components/ProductDetail'
 import { Route, Routes } from 'react-router-dom'
-=======
-import React from "react";
-import "./styles/global.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-import Preview from "./components/Preview";
-import Login from "./components/Login";
-import Join from "./components/Join";
-import MyPage from "./components/MyPage";
-import WishList from "./components/WishList";
-import Survey from "./components/Survey";
-import SurveyResult from "./components/SurveyResult";
-import ProductContent from "./components/ProductContent";
-import ProductDetail from "./components/ProductDetail";
-import { Route, Routes } from "react-router-dom";
-import DeleteMember from "./components/DeleteMember";
-import UpdateMember from "./components/UpdateMember";
-import { CompareSameNutri } from "./components/CompareSameNutri";
-import Combination from "./components/Combination";
->>>>>>> main
 
 const App = () => {
   return (
